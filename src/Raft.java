@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface Raft {
+public interface Raft {
+    void setNrRaft(int nrRaft);
+    int getNrRaft();
 }

@@ -7,5 +7,5 @@
     }
     public void afiseazaDetaliiCaracteristici() {
         System.out.println("Numărul de volume: " + numarVolume) ;
-    }
+     }
 }
