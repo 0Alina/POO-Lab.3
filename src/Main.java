@@ -4,6 +4,12 @@ public class Main {
 
         caracteristici.afiseazaDetalii();
         caracteristici.afiseazaDetaliiCaracteristici();
+        String indice1 = Carte.indiceVolum(7, "A");
+        System.out.println("Indicele primului volum = " + indice1);
+        String indice2 = Carte.indiceVolum(7, "A", 5);
+        System.out.println("Indicele celui de-al 2-lea volum = " + indice2);
+        String indice3 = Carte.indiceVolum(7, "A", 0, 3);
+        System.out.println("Indicele celui de-al 3-lea volum = " + indice3);
 
         Fantasy fantasy = new Fantasy(345, "Solidă", "grad1");
         fantasy.setNrRaft(5);
