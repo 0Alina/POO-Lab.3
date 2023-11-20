@@ -2,7 +2,7 @@ public class Carti {
     private int nrPagini;
     private String copertare;
 
-    void recenzie() {
+    public void recenzie() {
         System.out.println("Recenzie necunoscută");
     }
 

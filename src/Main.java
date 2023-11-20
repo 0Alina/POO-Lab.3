@@ -4,6 +4,7 @@ public class Main {
 
         caracteristici.afiseazaDetalii();
         caracteristici.afiseazaDetaliiCaracteristici();
+
         String indice1 = Carte.indiceVolum(7, "A");
         System.out.println("Indicele primului volum = " + indice1);
         String indice2 = Carte.indiceVolum(7, "A", 5);

@@ -15,7 +15,7 @@ public class Thriller extends Carti implements Raft{
         return nrRaft;
     }
     @Override
-    void recenzie() {
+    public void recenzie() {
         System.out.println("Recenzie: 9/10");
     }
     public void afisareDetaliiThriller() {

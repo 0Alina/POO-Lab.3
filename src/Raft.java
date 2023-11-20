@@ -1,4 +1,4 @@
 public interface Raft {
-    void setNrRaft(int nrRaft);
+    public void setNrRaft(int nrRaft);
     int getNrRaft();
 }
