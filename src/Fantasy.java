@@ -1,3 +1,4 @@
+//MOȘTENIRE IERARHICĂ
 public class Fantasy extends Carti implements Raft{
     private String gradF;
     private int nrRaft;
@@ -14,6 +15,7 @@ public class Fantasy extends Carti implements Raft{
     public int getNrRaft() {
         return nrRaft;
     }
+    //POLIMORFISM DINAMIC
     @Override
     public void recenzie() {
         System.out.println("Recenzie: 3/10");

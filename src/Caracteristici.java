@@ -1,4 +1,5 @@
- public class Caracteristici extends Carte {
+//MOȘTENIRE SIMPLĂ
+public class Caracteristici extends Carte {
     int numarVolume;
 
     public Caracteristici(String denumire, String autor, int numarVolume) {

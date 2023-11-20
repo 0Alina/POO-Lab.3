@@ -1,3 +1,4 @@
+//supraclasă
 public class Carti {
     private int nrPagini;
     private String copertare;
